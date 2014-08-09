@@ -9,6 +9,7 @@ body {
 article {
     width: 450px;
     margin: auto;
+    font-size: large;
 }
 
 header {
@@ -16,7 +17,6 @@ header {
     padding: 5px 20px;
     background-color: #666;
     color: #fff;
-    font-size: x-large;
     box-shadow: 10px 10px 5px #ddd;
 }
 
@@ -26,7 +26,6 @@ section {
     padding: 5px 20px;
     background-color: #fff;
     box-shadow: 10px 10px 5px #ddd;
-    font-size: large;
 }
 
 address {
