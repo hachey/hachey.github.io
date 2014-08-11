@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-image:url("wolsfeld-lake-by-brett-whaley-cc-2.jpg");
     color: #111;
     font-family: 'Optima', 'Bitstream Vera Sans', sans-serif;
     font-size: 16px;
@@ -10,14 +10,18 @@ article {
     width: 650px;
     margin: auto;
     font-size: x-large;
+    opacity: 0.75;
 }
 
 header {
     margin: 10px;
     padding: 5px 20px;
-    background-color: #666;
+    background-color: #191970;
     color: #fff;
-    box-shadow: 10px 10px 5px #ddd;
+}
+
+h1 {
+    opacity: 100;
 }
 
 section {
@@ -25,11 +29,21 @@ section {
     margin: 10px;
     padding: 5px 20px;
     background-color: #fff;
-    box-shadow: 10px 10px 5px #ddd;
+}
+
+h2 {
+    color: #191970;
 }
 
 address {
     text-align: center;
+}
+
+footer {
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: small;
+    color: #fff;
 }
 
 a {
